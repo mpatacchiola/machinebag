@@ -1,14 +1,12 @@
 machinebag
 -----------
 
-Sparse machine learning applications, different programming languages and datasets have been used.
+Machinebag is a collection of standalone projects. Each folder is a selfcontained machine learning application.
 
-This is a collection of applications for machine learning.
-
-- Matseed: Matlab/Octave code for k-means clustering (seed dataset)
+- Matseed: Matlab/Octave code for k-means clustering (seed dataset) [[code]](./matseed)
 
 
 installation
 ------------
 
-Generally the software provided is ready to use. When some kind of installation is required, it has been specified in the readme file contained in each folder.
+The installation procedures are included inside each folder.
