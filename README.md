@@ -3,7 +3,13 @@ machinebag
 
 Machinebag is a collection of standalone projects. Each folder is a selfcontained machine learning application.
 
-- Matseed: Matlab/Octave code for k-means clustering (seed dataset) [[code]](./matseed)
+
+Name: Matseed
+Author: [Massimiliano Patacchiola](http://mpatacchiola.github.io]
+Language: Matlba/Octave
+Method: k-means clustering
+Dataset: [seed](http://archive.ics.uci.edu/ml/datasets/seeds)
+
 
 
 installation
