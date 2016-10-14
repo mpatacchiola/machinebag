@@ -1,18 +1,17 @@
-ConvHand
+Gummi Trigger
 --------
 
-- Language: Python (Tensorflow)
-- Algorithm: Convolutional Neural Networks
-- Dataset: Open Hands
-- Contributors: Brice Denoun, Massimiliano Patacchiola
+- Language: Python and ROS (Robot Operating System)
+- Robot: [GummiArm](https://github.com/mstoelen/GummiArm)
+- Contributors: Massimiliano Patacchiola
 
 
 Requirements
 ------------
 
 - This tutorial has been tested on ROS Indigo, using the Kinect 2.0
-- Install the freenect package
-- Install depth_to_laserscan: sudo apt-get install ros-indigo-depthimage-to-laserscan
+- Install the [freenect package](http://wiki.ros.org/freenect_launch): sudo apt-get install libfreenect-dev ros-indigo-freenect-launch
+- Install [depthimage_to_laserscan](http://wiki.ros.org/depthimage_to_laserscan): sudo apt-get install ros-indigo-depthimage-to-laserscan
 
 Installation
 ------------
