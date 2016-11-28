@@ -16,7 +16,7 @@ import cv2
 import gym
 import numpy as np
 
-environment_name = 'BipedalWalkerHardcore-v2'
+environment_name = 'BipedalWalker-v2'
 env = gym.make(environment_name)
 env.monitor.start('/tmp/gym_log', force=True)
 env.reset()

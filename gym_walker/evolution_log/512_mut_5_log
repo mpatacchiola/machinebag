@@ -1,0 +1,57 @@
+massimiliano@MP-TECRA-A50-A:~/machinebag/gym_walker$ 
+massimiliano@MP-TECRA-A50-A:~/machinebag/gym_walker$ python evolution.py 
+[2016-11-27 16:12:10,670] Making new env: BipedalWalker-v2
+==========================
+Epoch: 0
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: 0.0
+Fitness Mean: 0.0
+Fitness Max: 0.0
+[2016-11-27 16:14:07,649] Clearing 4 monitor files from previous run (because force=True was provided)
+[2016-11-27 16:14:07,653] Starting new video recorder writing to /home/massimiliano/machinebag/gym_walker/evolution_log/openaigym.video.0.5453.video000000.mp4
+[2016-11-27 16:14:23,360] Finished writing results. You can upload them to the scoreboard via gym.upload('/home/massimiliano/machinebag/gym_walker/evolution_log')
+Last output: [-0.99999982  0.99999982 -0.33757412 -0.99999982]
+==========================
+Epoch: 1
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -163.030919504
+Fitness Mean: -102.040134093
+Fitness Max: -30.392358776
+==========================
+Epoch: 2
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -165.053133925
+Fitness Mean: -73.3392195399
+Fitness Max: -19.5135616692
+==========================
+Epoch: 3
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -148.196152566
+Fitness Mean: -75.3362232398
+Fitness Max: -10.5545235424
+==========================
+Epoch: 4
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -157.692082902
+Fitness Mean: -100.084192261
+Fitness Max: -14.0447579934
+^CTraceback (most recent call last):
+  File "evolution.py", line 137, in <module>
+    subjects_list = return_mutated_subjects_list(subjects_list, fitness_array, MUTATION_PROBABILITY)
+  File "evolution.py", line 89, in return_mutated_subjects_list
+    mutated_list.append(_return_mutated_subject(subjects_list[subject_index], mutation_probability))
+  File "evolution.py", line 74, in _return_mutated_subject
+    x_bits.bin = ''.join(x_bits_list)
+  File "/usr/local/lib/python2.7/dist-packages/bitstring.py", line 1828, in _setbin_safe
+    self._setbin_unsafe(binstring)
+  File "/usr/local/lib/python2.7/dist-packages/bitstring.py", line 1842, in _setbin_unsafe
+    self._setbytes_unsafe(bytearray(bytelist), length, 0)
+  File "/usr/local/lib/python2.7/dist-packages/bitstring.py", line 1332, in _setbytes_unsafe
+    self._datastore = ByteStore(data[:], length, offset)
+KeyboardInterrupt
+

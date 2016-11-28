@@ -1,0 +1,60 @@
+^[[Amassimiliano@MP-TECRA-A50-A:~/machinebag/gym_walker$ python evolution.py 
+[2016-11-27 15:55:29,922] Making new env: BipedalWalker-v2
+==========================
+Epoch: 0
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: 0.0
+Fitness Mean: 0.0
+Fitness Max: 0.0
+[2016-11-27 15:56:14,608] Clearing 4 monitor files from previous run (because force=True was provided)
+[2016-11-27 15:56:14,612] Starting new video recorder writing to /home/massimiliano/machinebag/gym_walker/evolution_log/openaigym.video.0.4993.video000000.mp4
+[2016-11-27 15:56:30,287] Finished writing results. You can upload them to the scoreboard via gym.upload('/home/massimiliano/machinebag/gym_walker/evolution_log')
+Last output: [-0.99999982  0.29884315  0.99999982 -0.99728596]
+==========================
+Epoch: 1
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -163.263820084
+Fitness Mean: -97.7474287632
+Fitness Max: -14.9007020458
+==========================
+Epoch: 2
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -154.479645744
+Fitness Mean: -72.03393191
+Fitness Max: 1.87747001858
+==========================
+Epoch: 3
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -145.315181942
+Fitness Mean: -60.3003645394
+Fitness Max: -1.13534085464
+==========================
+Epoch: 4
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -157.178739677
+Fitness Mean: -58.7250429556
+Fitness Max: 0.366799901166
+==========================
+Epoch: 5
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -145.485299702
+Fitness Mean: -60.8563547606
+Fitness Max: 0.659012099378
+[2016-11-27 16:02:10,289] Clearing 4 monitor files from previous run (because force=True was provided)
+[2016-11-27 16:02:10,295] Starting new video recorder writing to /home/massimiliano/machinebag/gym_walker/evolution_log/openaigym.video.1.4993.video000000.mp4
+[2016-11-27 16:02:13,266] Finished writing results. You can upload them to the scoreboard via gym.upload('/home/massimiliano/machinebag/gym_walker/evolution_log')
+Last output: [ 0.99999982  0.98019713 -0.89399213 -0.99999982]
+==========================
+Epoch: 6
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -166.635465523
+Fitness Mean: -72.0023149116
+Fitness Max: 0.442540696134
+

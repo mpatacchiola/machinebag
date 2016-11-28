@@ -1,0 +1,86 @@
+massimiliano@MP-TECRA-A50-A:~/machinebag/gym_walker$ 
+massimiliano@MP-TECRA-A50-A:~/machinebag/gym_walker$ 
+massimiliano@MP-TECRA-A50-A:~/machinebag/gym_walker$ python evolution.py
+  File "evolution.py", line 111
+    print("Fitness Min: " + str(np.amin(fitness_array))) + " of index [" + str(np.argmin(fitness_array))) + "]"
+                                                                                                        ^
+SyntaxError: invalid syntax
+massimiliano@MP-TECRA-A50-A:~/machinebag/gym_walker$ python evolution.py
+  File "evolution.py", line 111
+    print("Fitness Min: " + str(np.amin(fitness_array)) + " of index [" + str(np.argmin(fitness_array))) + "]")
+                                                                                                              ^
+SyntaxError: invalid syntax
+massimiliano@MP-TECRA-A50-A:~/machinebag/gym_walker$ python evolution.py
+[2016-11-27 17:07:48,490] Making new env: BipedalWalker-v2
+==========================
+Epoch: 0
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: 0.0 of index [0]
+Fitness Mean|Std: 0.0 | 0.0
+Fitness Max: 0.0 of index [0]
+[2016-11-27 17:08:40,471] Clearing 4 monitor files from previous run (because force=True was provided)
+[2016-11-27 17:08:40,476] Starting new video recorder writing to /home/massimiliano/machinebag/gym_walker/evolution_log/openaigym.video.0.7045.video000000.mp4
+[2016-11-27 17:08:56,059] Finished writing results. You can upload them to the scoreboard via gym.upload('/home/massimiliano/machinebag/gym_walker/evolution_log')
+Last output: [-0.82007027  0.99936301  0.99999982  0.86034226]
+==========================
+Epoch: 1
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -147.928984988 of index [106]
+Fitness Mean|Std: -92.2959182105 | 35.1192375968
+Fitness Max: 16.7329608612 of index [146]
+==========================
+Epoch: 2
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -153.624078115 of index [71]
+Fitness Mean|Std: -62.593226983 | 49.0595482011
+Fitness Max: 41.6198767236 of index [171]
+==========================
+Epoch: 3
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -143.435778879 of index [42]
+Fitness Mean|Std: -21.529005981 | 64.4061732037
+Fitness Max: 38.2164092472 of index [70]
+==========================
+Epoch: 4
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -144.420587686 of index [153]
+Fitness Mean|Std: -14.3274238563 | 58.8800879545
+Fitness Max: 37.4875962579 of index [1]
+==========================
+Epoch: 5
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -143.70783811 of index [110]
+Fitness Mean|Std: -20.7530869395 | 61.560641379
+Fitness Max: 40.5917765238 of index [154]
+[2016-11-27 17:15:32,286] Clearing 4 monitor files from previous run (because force=True was provided)
+[2016-11-27 17:15:32,291] Starting new video recorder writing to /home/massimiliano/machinebag/gym_walker/evolution_log/openaigym.video.1.7045.video000000.mp4
+[2016-11-27 17:15:49,434] Finished writing results. You can upload them to the scoreboard via gym.upload('/home/massimiliano/machinebag/gym_walker/evolution_log')
+Last output: [ 0.90552199  0.99145043 -0.96838212  0.85426354]
+==========================
+Epoch: 6
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -141.714724232 of index [66]
+Fitness Mean|Std: -21.4449462276 | 62.9903629785
+Fitness Max: 37.4616837899 of index [110]
+==========================
+Epoch: 7
+Total subjects: 200
+Mutation Probability: 0.05
+Fitness Min: -145.340170307 of index [54]
+Fitness Mean|Std: -25.6306000388 | 64.4270733045
+Fitness Max: 36.3097290568 of index [153]
+^CTraceback (most recent call last):
+  File "evolution.py", line 122, in <module>
+    for t in range(gym_iterations):                
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 315, in run
+    return self._run(None, fetches, feed_dict)
+  File "/usr/local/lib/python2.7/dist-packages/tensorflow/python/client/session.py", line 507, in _run
+    feed_dict_string[compat.as_bytes(subfeed_t.name)] = np_val
+KeyboardInterrupt

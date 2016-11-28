@@ -1,0 +1,84 @@
+Epoch: 0
+Total subjects: 200
+Fitness Min: 0.0
+Fitness Mean: 0.0
+Fitness Max: 0.0
+[2016-11-27 15:29:28,385] Clearing 4 monitor files from previous run (because force=True was provided)
+[2016-11-27 15:29:28,390] Starting new video recorder writing to /home/massimiliano/machinebag/gym_walker/evolution_log/openaigym.video.0.3917.video000000.mp4
+[2016-11-27 15:29:44,464] Finished writing results. You can upload them to the scoreboard via gym.upload('/home/massimiliano/machinebag/gym_walker/evolution_log')
+Last output: [-0.99999982 -0.99999982 -0.21854846  0.99999619]
+==========================
+Epoch: 1
+Total subjects: 200
+Fitness Min: -155.381814558
+Fitness Mean: -98.8976261895
+Fitness Max: -22.8143506506
+==========================
+Epoch: 2
+Total subjects: 200
+Fitness Min: -161.265423918
+Fitness Mean: -81.2196267621
+Fitness Max: -18.4653967851
+==========================
+Epoch: 3
+Total subjects: 200
+Fitness Min: -153.536072576
+Fitness Mean: -39.5700693953
+Fitness Max: -13.4271443803
+==========================
+Epoch: 4
+Total subjects: 200
+Fitness Min: -135.462917815
+Fitness Mean: -39.5978032042
+Fitness Max: -12.7824279419
+==========================
+Epoch: 5
+Total subjects: 200
+Fitness Min: -143.214670465
+Fitness Mean: -37.1910716449
+Fitness Max: -14.2287312233
+[2016-11-27 15:37:16,136] Clearing 4 monitor files from previous run (because force=True was provided)
+[2016-11-27 15:37:16,140] Starting new video recorder writing to /home/massimiliano/machinebag/gym_walker/evolution_log/openaigym.video.1.3917.video000000.mp4
+[2016-11-27 15:37:31,845] Finished writing results. You can upload them to the scoreboard via gym.upload('/home/massimiliano/machinebag/gym_walker/evolution_log')
+Last output: [ 0.99999982  0.99999982 -0.99999982  0.99527091]
+==========================
+Epoch: 6
+Total subjects: 200
+Fitness Min: -138.935307621
+Fitness Mean: -31.1966080826
+Fitness Max: -13.032901645
+==========================
+Epoch: 7
+Total subjects: 200
+Fitness Min: -119.673199462
+Fitness Mean: -29.3649091304
+Fitness Max: -12.2467513072
+==========================
+Epoch: 8
+Total subjects: 200
+Fitness Min: -126.104526731
+Fitness Mean: -33.3636862115
+Fitness Max: -14.3203899173
+==========================
+Epoch: 9
+Total subjects: 200
+Fitness Min: -148.597250075
+Fitness Mean: -29.8757688478
+Fitness Max: -14.6223322851
+==========================
+Epoch: 10
+Total subjects: 200
+Fitness Min: -135.989480975
+Fitness Mean: -32.1588641486
+Fitness Max: -13.4203525174
+[2016-11-27 15:47:04,679] Clearing 4 monitor files from previous run (because force=True was provided)
+[2016-11-27 15:47:04,683] Starting new video recorder writing to /home/massimiliano/machinebag/gym_walker/evolution_log/openaigym.video.2.3917.video000000.mp4
+[2016-11-27 15:47:20,383] Finished writing results. You can upload them to the scoreboard via gym.upload('/home/massimiliano/machinebag/gym_walker/evolution_log')
+Last output: [ 0.99999982  0.98273069 -0.38681972 -0.99989957]
+==========================
+Epoch: 11
+Total subjects: 200
+Fitness Min: -140.897756922
+Fitness Mean: -35.5230806064
+Fitness Max: -14.5295435751
+
